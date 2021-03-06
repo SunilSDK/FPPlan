@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        app:cardElevation="8dp"
+        android:theme="@style/Theme.MaterialComponents.DayNight"
+        app:cardPreventCornerOverlap="false"
+        app:strokeColor="#ccc"
+        app:strokeWidth="1dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/home_layout"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_700" />
+
+            <TextView
+                android:id="@+id/tvSrNo"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+            />
+
+            <View
+                android:layout_width="2dp"
+
+                android:layout_height="wrap_content"
+                android:background="@color/purple_700" />
+
+            <TextView
+                android:id="@+id/tvOrderNo"
+                android:layout_width="@dimen/dimen_100"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:text="12398172938"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+ />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_700" />
+
+            <TextView
+                android:id="@+id/tvPartyName"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:text="12398172938"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_700" />
+
+            <TextView
+                android:id="@+id/tvDateTime"
+                android:layout_width="@dimen/dimen_100"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:text="12398172938"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_700" />
+
+            <TextView
+                android:id="@+id/tvTimeDiff"
+                android:layout_width="@dimen/dimen_100"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:text="12398172938"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_700" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnRemark"
+                android:layout_width="@dimen/dimen_100"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:text="Remark"
+                android:textSize="12dp" />
+
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_700" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

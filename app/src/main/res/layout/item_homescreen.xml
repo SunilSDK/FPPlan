@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:id="@+id/home_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    android:background="@color/purple_700"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:strokeWidth="1dp"
+    android:layout_gravity="center"
+    app:strokeColor="#ccc"
+    app:cardElevation="8dp"
+        android:theme="@style/Theme.MaterialComponents.DayNight"
+    android:layout_margin="2dp"
+    app:cardPreventCornerOverlap="false"
+    >
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/menuButton"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        app:backgroundTint="@null"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:text="Navigate">
+
+    </com.google.android.material.button.MaterialButton>
+
+</com.google.android.material.card.MaterialCardView>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
